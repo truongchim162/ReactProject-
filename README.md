@@ -8,10 +8,6 @@
 - ..
 - Data: LocalStorage
 
-# Github Pages
-
-https://huuthang.xyz/fs-reactjs/#/
-
 ## Available Scripts
 
 In the project directory, you can run:
