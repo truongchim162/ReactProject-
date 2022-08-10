@@ -21,7 +21,7 @@ const Footer = () => {
                 <ul className="footer-social">
                     <div className="social-header">Mạng xã hội</div>
                     <li>
-                        <a href="/">Facebook</a>
+                        <a href="https://www.facebook.com/joley162/">Facebook</a>
                     </li>
                     <li>
                         <a href="/">Instagram</a>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="footer-copyright">© 2021 FoodShop</div>
+            <div className="footer-copyright">© Nguyễn Khắc Trường</div>
         </div>
     );
 };
