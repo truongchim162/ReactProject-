@@ -1,0 +1,12 @@
+.view-container {
+    display: inline-flex;
+    text-align: right;
+    font-weight: 700;
+    font-size: 0.9rem;
+    div {
+        margin: 10px;
+    }
+    .view-container__icon {
+        cursor: pointer;
+    }
+}

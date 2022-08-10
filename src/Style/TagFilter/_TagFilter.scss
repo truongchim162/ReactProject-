@@ -1,0 +1,32 @@
+.tag-filter {
+    .tag-filter__item {
+        li {
+            display: inline-block;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            margin: 10px;
+            font-size: 0.7rem;
+            padding: 4px 8px;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        .tag-filter__item-1 {
+            background-color: #ffcb00;
+        }
+        .tag-filter__item-2 {
+            background-image: linear-gradient(to right, #ff8750, #fbf053);
+        }
+        .tag-filter__item-3 {
+            background-image: linear-gradient(to right, #ffcd2b, #fb07ee);
+        }
+        .tag-filter__item-4 {
+            background-image: linear-gradient(to right, #df98fa, #9055ff);
+        }
+        .tag-filter__item-5 {
+            background-image: linear-gradient(to right, #fb07ee, #ffcd2b);
+        }
+        .tag-filter__item-6 {
+            background-image: linear-gradient(to right, #1abcf4, #5defb8);
+        }
+    }
+}

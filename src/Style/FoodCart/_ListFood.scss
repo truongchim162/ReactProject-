@@ -1,0 +1,69 @@
+.list-food {
+    margin-top: 60px;
+    text-align: center;
+    .list-food__title {
+        font-size: 28px;
+    }
+    .list-food__search {
+        background: none !important;
+        ::placeholder {
+            color: #22232d;
+            opacity: 1;
+            font-family: "Nunito", sans-serif;
+            font-weight: 700;
+            font-size: 0.8rem;
+        }
+        border-radius: 14px;
+        width: 60%;
+        display: inline-flex;
+        margin: 35px 0;
+        padding: 10px;
+
+        font-weight: 900;
+        .search-button {
+            background-color: #ffcb00;
+            font-weight: 700;
+        }
+    }
+    .list-food__view {
+        text-align: end;
+        margin-right: 20%;
+    }
+    .list-food__filter {
+        margin: 35px;
+    }
+    .list-food__detail {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .goto-cart {
+        margin: 60px 43%;
+        color: #000;
+        text-decoration: none;
+        background: #ffcb00;
+        padding: 0.5rem;
+        border-radius: 12px;
+        font-size: 0.9rem;
+        font-weight: 800;
+        cursor: pointer;
+        a {
+            text-decoration: none;
+            color: #22232d;
+            &:hover {
+                color: #414147;
+                padding: 0.5rem;
+            }
+        }
+    }
+    .list-food__review {
+        margin: 60px 43%;
+        color: #000;
+        text-decoration: none;
+        background: #ffcb00;
+        padding: 0.5rem;
+        border-radius: 12px;
+        font-size: 0.9rem;
+        font-weight: 800;
+        cursor: pointer;
+    }
+}
